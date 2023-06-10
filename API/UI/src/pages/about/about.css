@@ -1,5 +1,5 @@
 .about {
-    padding-top: 55px; /* Add space equal to the height of the navbar */
+    padding-top: 60px; /* Add space equal to the height of the navbar */
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;

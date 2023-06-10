@@ -7,7 +7,7 @@ const AboutComp = () => {
       name: 'Matthew Gallardo',
       role: 'Web Developer',
       bio: 'Computer Science Student @ Polytechnic University of the Philippines, Lead Web Developer of the Open Source Freedom Wall.',
-      image: 'https://res.cloudinary.com/do3op0083/image/upload/v1686041250/349228681_212142265015551_4413326747003317864_n_yn1wcx.jpg',
+      image: 'https://res.cloudinary.com/do3op0083/image/upload/v1686363307/photo_6061855750415824951_x_plcyqc.jpg',
     },
     {
       name: 'Virgielyn Ordanza',
