@@ -6,7 +6,7 @@ export default function Post({ post }) {
   const PF = "https://opensourcefw.herokuapp.com/images/";
   return (
     <div className="post">
-      {post.photo && <img className="postImg" src={`../images/${post.photo}`} alt="" />}
+      {post.photo && <img className="postImg" src={`${PF}${post.photo}`} alt="" />}
       <div className="postInfo">
         <div className="postCats">
           {post.categories.map((c) => (
