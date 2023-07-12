@@ -1,10 +1,8 @@
-import { useEffect, useState } from "react";
-
-import Aboutcomp from "../../components/aboutcomp/aboutcomp";
-
-import "./about.css";
-import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router";
+import axios from "axios";
+import Aboutcomp from "../../components/aboutcomp/aboutcomp";
+import "./about.css";
 
 export default function About() {
   const [posts, setPosts] = useState([]);
@@ -17,12 +15,14 @@ export default function About() {
     };
     fetchPosts();
   }, [search]);
+
   return (
     <>
-      
+      <div className="video-background">
+        <video src="https://res.cloudinary.com/do3op0083/video/upload/v1688613727/You_have_no_enemies._xmyza8.mp4" autoPlay loop />
+      </div>
       <div className="about">
-     <Aboutcomp/>
-        
+        <Aboutcomp />
       </div>
     </>
   );
